@@ -985,7 +985,7 @@ break
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285875158363')
+                m.reply('https://wa.me/6283822205585')
             }
             break		 
             case 'subsyt': {
@@ -3655,7 +3655,7 @@ let alfamart = `628111500959@s.whatsapp.net`
   mentions: ments,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title: 'Naze Dev',
+  title: 'Iavqmi Bot',
   body: 'Subscribe My YouTube', 
   showAdAttribution: true,
   thumbnail: thumb,
