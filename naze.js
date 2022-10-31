@@ -48,7 +48,7 @@ const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Naze\nYoutube/Sc :\nhttps://youtube.com/c/Nazedev')  //ubah di config biar ngk emror
+const nyoutube = ('© Opik\nYoutube/Sc :\nhttps://youtube.com/channel/UCEWzQWxEdrxawnmQtZ3mEZQ')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 gambar = fs.readFileSync('./media/image/naze.jpg')
@@ -981,7 +981,7 @@ break
             }
             break
             case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/naze_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 082113821188\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/Iavqmi\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 083822205585\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
